@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Blog from "../pages/Blog.tsx";
 import Contact from "../pages/Contact.tsx";
