@@ -7,6 +7,7 @@ import NavigationBar from "./NavigationBar.tsx";
 import Pricing from "../pages/Pricing.tsx";
 import About from "../pages/About.tsx";
 import CostContainer from "../pages/CostContainer.tsx";
+import HouseCard from "../pages/HouseCardComponent/HouseCard.tsx";
 
 const Router = () => {
   return (
@@ -19,6 +20,7 @@ const Router = () => {
           <Route path="pricing" element={<Pricing />} />
           <Route path="about" element={<About />} />
           <Route path="costs" element={<CostContainer />} />
+          <Route path="listing" element={<HouseCard />} />
         </Route>
       </Routes>
     </BrowserRouter>

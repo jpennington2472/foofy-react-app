@@ -1,0 +1,12 @@
+.house-card {
+  width: 50%;
+  float: left;
+}
+
+.card {
+  padding: 2%;
+}
+.rest-name {
+  text-align: center;
+  color: black;
+}
