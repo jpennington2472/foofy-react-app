@@ -1,6 +1,6 @@
 .house-card {
   width: 50%;
-  float: left;
+  position: relative;
 }
 
 .card {

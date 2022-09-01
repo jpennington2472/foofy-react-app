@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Blog from "../pages/Blog.tsx";
-import Contact from "../pages/Contact.tsx";
-import Welcome from "../pages/Welcome.tsx";
+import Contact from "../pages/ContactComponent/Contact.tsx";
+import Welcome from "../pages/WelcomeComponent/Welcome.tsx";
 import NavigationBar from "./NavigationBar.tsx";
 import Pricing from "../pages/Pricing.tsx";
 import About from "../pages/About.tsx";
-import CostContainer from "../pages/CostContainer.tsx";
+import CostContainer from "../pages/CostsComponent/CostContainer.tsx";
 import HouseCard from "../pages/HouseCardComponent/HouseCard.tsx";
 
 const Router = () => {
